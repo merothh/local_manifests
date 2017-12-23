@@ -50,4 +50,6 @@
   <project name="android_vendor_cm" path="vendor/cm" remote="merothh" revision="cm-14.1-m" />
   <project name="cm_platform_sdk" path="vendor/cmsdk"  remote="merothh" revision="cm-14.1-m" />
 
+  <!-- track ThemeInterfacer -->
+  <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" /> 
 </manifest>

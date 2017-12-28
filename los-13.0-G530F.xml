@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+ <remote name="merothh" fetch="http://github.com/merothh" />
+ 
+  <!-- Device Trees -->
+  <project path="device/samsung/fortunafz" name="android_device_samsung_fortunafz" remote="merothh" revision="cm-13.0" />
+  
+
+  <!-- Common Trees -->
+  <project path="device/samsung/fortunaxx-common" name="Samsung-MSM8916/android_device_samsung_fortunaxx-common" remote="github" revision="cm-13.0" />
+  <project path="vendor/samsung/fortunaxx-common" name="Samsung-MSM8916/android_vendor_samsung_fortunaxx-common" remote="github" revision="cm-13.0" />
+	
+	
+  <!-- Vendor -->
+  <project path="vendor/samsung/fortunafz" name="android_vendor_samsung_fortunafz" remote="merothh" revision="cm-13.0" />
+
+  
+  <!-- Kernel -->
+  <project path="kernel/samsung/fortunaxx" name="Samsung-MSM8916/android_kernel_samsung_msm8916" remote="github" revision="cm-13.0" />
+
+  
+  <!-- Extras -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-13.0" />
+  <project path="device/samsung/qcom-common" name="LineageOS/android_device_samsung_qcom-common" remote="github" revision="cm-13.0" />
+  <project path="external/stlport" name="LineageOS/android_external_stlport" remote="github" revision="cm-13.0" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" />
+  <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="cm-13.0" />
+
+</manifest>

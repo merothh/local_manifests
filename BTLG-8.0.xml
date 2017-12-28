@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="merothh" fetch="http://github.com/merothh" />
+ 
+  <!-- track forked telephony for now -->
+  <remove-project name="frameworks_opt_telephony" path="frameworks/opt/telephony" groups="pdk" remote="gzosp" />
+  <project name="bootleg_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="merothh" revision="8.0"/>
+
+  <!--track mido stuff-->
+  <project name="bootleg_device_xiaomi_mido" path="device/xiaomi/mido" remote="merothh" revision="8.0-mat"/>
+  <project name="Adesh15/android_kernel_xiaomi_msm8953" path="kernel/xiaomi/msm8953" remote="github" revision="featherO_rebase"/>
+  <project name="bootleg_vendor_xiaomi_mido" path="vendor/xiaomi/mido" remote="merothh" revision="8.0"/>
+
+</manifest>
